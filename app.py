@@ -28,6 +28,7 @@ def get_model():
     return model
 
 
+
 @app.get('/')
 def get_root():
     return {'message': 'Welcome to the failure detection API'}
