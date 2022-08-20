@@ -1,7 +1,4 @@
-#https://ledatascientist.com/deployer-rapidement-des-modeles-de-ml-avec-fastapi/
 
-#import sys
-#sys.path.append('/home/asabuzz/python_ml_dl/api-dockers/')
 from pydantic import BaseModel, Field
 from fastapi import FastAPI
 from joblib import load
