@@ -224,7 +224,7 @@ def get_model():
         model (sklearn.pipeline.Pipeline): sklearn fit model including 
         preprocessing pipeline and Logistic regression
     """
-    model = load('final_model.joblib')
+    model = load('fail_pred_model.joblib')
     return model
 
 @app.get('/')
