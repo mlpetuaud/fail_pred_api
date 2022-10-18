@@ -19,7 +19,7 @@ app = FastAPI(title='Is this company likely to fail ?')
 # the user input
 class InputFormulaire(BaseModel):
     A: str = Field(..., example='4511Z')
-    B: str = Field(..., example='05/04/1985')
+    B: str = Field(..., example='10/05/1978')
     C: int = Field(..., example=0)
     D: int = Field(..., example=2897808)
     E: int = Field(..., example=0)
